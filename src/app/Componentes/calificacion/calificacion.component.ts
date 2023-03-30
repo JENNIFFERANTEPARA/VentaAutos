@@ -28,4 +28,5 @@ for( let i=1; i<=this.calificacion;i++) {
 mostarCalificacion(){
   this.select.emit(this.calificacion);
 }
+
 }

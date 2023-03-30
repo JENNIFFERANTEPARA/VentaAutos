@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { VehiculoService } from 'src/app/Servicios/vehiculo.service';
 
+
 @Component({
   selector: 'app-Vehiculos',
   templateUrl: './Vehiculos.component.html',
@@ -22,3 +23,4 @@ mostarAlerta(calificacion:any){
   alert("La calificacion es:"+ calificacion);
 }
 }
+
