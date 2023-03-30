@@ -18,5 +18,7 @@ export class VehiculosComponent implements OnInit {
   ngOnInit() {
    this.listaAutos = this.VehiculoService.getVehiculos();
 }
-
+mostarAlerta(calificacion:any){
+  alert("La calificacion es:"+ calificacion);
+}
 }

@@ -45,7 +45,10 @@
           <td>{{vehiculo.marca}}</td>
           <td>{{vehiculo.modelo}}</td>
           <td>{{vehiculo.anio}}</td>
-          <td>{{vehiculo.calificacion}}</td>
+          <td>
+            <app-calificacion [calificacion]="vehiculo.calificacion"
+            (select)="mostarAlerta($event)"></app-calificacion>
+          </td>
           <td></td>
           </tr>
         <tr>
